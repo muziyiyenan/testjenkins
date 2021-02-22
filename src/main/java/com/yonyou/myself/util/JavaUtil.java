@@ -1,6 +1,5 @@
 package com.yonyou.myself.util;
 
-import com.sun.xml.internal.ws.util.StringUtils;
 import sun.misc.BASE64Encoder;
 
 import java.io.*;
