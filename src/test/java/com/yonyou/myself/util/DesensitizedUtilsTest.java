@@ -25,4 +25,14 @@ class DesensitizedUtilsTest {
     void addLableForNum() {
         Assert.assertEquals("*******什么",DesensitizedUtils.addLableForNum("什么",9,"*"));
     }
+
+    @Test
+    void encDataNum() {
+        System.out.println(DesensitizedUtils.encDataNum("ssdfsa1231234124./,./.,/234839845943zhong中國什麽殺殺殺"));
+    }
+
+    @Test
+    void invokeMsg() {
+        System.out.println("输出的日志是"+DesensitizedUtils.invokeMsg("输出的文件类似这样的数据\"account_num\":\"6230958600001008\",\"password\":\"121212121212121\""));
+    }
 }
